@@ -6,8 +6,7 @@ if(!token_data){
 	return console.log('请设置TOKEN_DATA!')
 }else{
 	function getToken(a) {
-		console.log('======a='+a);
-		//console.log('======t.Decrypt(a)='+t.Decrypt(a));
+		console.log('======t.Decrypt(a)='+t.Decrypt(a));
 		var s = JSON.parse(t.Decrypt(a));
 		//console.log('======s='+s);
 		//var i = JSON.parse(s.data);
