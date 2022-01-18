@@ -9,10 +9,11 @@ if(!token_data){
 		console.log('======a='+a);
 		//console.log('======t.Decrypt(a)='+t.Decrypt(a));
 		var s = JSON.parse(t.Decrypt(a));
-		console.log('======s='+s);
-		var i = JSON.parse(s.data);
-		console.log('======i='+i);
-		var h = i.token;
+		//console.log('======s='+s);
+		//var i = JSON.parse(s.data);
+		//console.log('======i='+i);
+		//var h = i.token;
+		var h = s.phone;
 		console.log('======h='+h);
 		return h
 	}
