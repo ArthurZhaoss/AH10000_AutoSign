@@ -3,4 +3,4 @@
 
 添加名为TOKEN_DATA的变量: Settings->Secrets->New secret
 
-变量值为抓包getphone接口的返回值
+变量值为抓包 userSign 的 查询参数里的 phone
